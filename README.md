@@ -2,9 +2,9 @@
 
 Blade30 is a comprehensive dataset for multiple blade-related tasks, including blade stitching, segmentation, defect detection, classification and deduplication, contamination detection and classification, and more. Blade30 was collected during the real drone-based wind turbine inspection in various environments. It contains 1,302 real drone-captured images covering 30 full blades captured under various conditions (both on- and off-shore), accompanied by a rich set of annotations such as defects and contaminations, etc. Thus, Blade30 leads in both quality and quantity. 
 
-paper: https://www.sciencedirect.com/science/article/pii/S0960148122018481?via%3Dihub=
+<img src="blade30.png" height="400">
 
-<img src="blade30.png" height="256">
+paper: https://www.sciencedirect.com/science/article/pii/S0960148122018481?via%3Dihub=
 
 ## Download
 1. Baidu Disc: 
