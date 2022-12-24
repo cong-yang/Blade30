@@ -1,6 +1,6 @@
 # Blade30
 
-Blade30 is a comprehensive dataset for multiple blade-related tasks, including blade stitching, segmentation, defect detection, classification and deduplication, contamination detection and classification, and more. Blade30 was collected during the real drone-based wind turbine inspection in various environments. It contains 1,302 real drone-captured images covering 30 full blades captured under various conditions (both on- and off-shore), accompanied by a rich set of annotations such as defects and contaminations, etc. Thus, Blade30 leads in both quality and quantity.
+Blade30 is a comprehensive dataset for multiple blade-related tasks, including blade stitching, segmentation, defect detection, classification and deduplication, contamination detection and classification, and more. Blade30 was collected during the real drone-based wind turbine inspection in various environments. It contains 1,302 real drone-captured images covering 30 full blades captured under various conditions (both on- and off-shore), accompanied by a rich set of annotations such as defects and contaminations, etc. Thus, Blade30 leads in both quality and quantity. paper: https://www.sciencedirect.com/science/article/pii/S0960148122018481?via%3Dihub=
 
 <img src="./demo_rst/blade30.png" height="256">
 
@@ -24,25 +24,12 @@ If you use these works in your research, please cite:
             year={2023},
 	}
 
-## Dataset: Industral10
-**Note**
-1. Due to space limitation in github, here we only provide testing data and their ground truth. If you want full training data, please send us email: cong.yang@uni-siegen.de.
-2. At present, it is only open to non-profit institutions such as schools and research institutes, and not to companies and enterprises. Any other use beyond that is prohibited. To ensure the continuous development of this project, we demand responsible use of the data you are about to acquire.
-3. Without permission, it is not allowed to forward, publish or distribute this dataset or its subsets to any organization or individual in any ways or by any means.
-4. Please cite our paper if Industral10 dataset is useful to your research.
-5. We will not accept applications from generic email addresses (e.g. gmail.com, 163.com, etc.). Only applications from email addresses of non-profit institutions such as schools and research institutes are accepted.
-
 **Data Structure**:
 
-- obj1
-   - small_distance: around 50cm camear-object distance with normal marker
-      - img_0_99.jpg: original image
-      - makloca_0_99.txt: marker location (four corners) within the image
-      - tran_0_99.txt: rotation and translation
-   - big _distance: around 100-200cm camera-object distance with nestmarker
-      - img_0_99.jpg: original image
-      - makloca_0_99.txt: marker location (four corners) within the image
-      - tran_0_99.txt: rotation and translation
-
-## Source Codes
+- Blade_1
+   - mask: ground truth of blade region segmentation
+      - 10_d78543cb-5fb1-4677-b92e-2ece550642c9.jpg: blade image
+      - 10_d78543cb-5fb1-4677-b92e-2ece550642c9.json: ground truth of defects and contaminations
+        - label: label name
+	- points: bounding boxes
 
