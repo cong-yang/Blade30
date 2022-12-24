@@ -4,7 +4,7 @@ Blade30 is a comprehensive dataset for multiple blade-related tasks, including b
 
 paper: https://www.sciencedirect.com/science/article/pii/S0960148122018481?via%3Dihub=
 
-<img src="./demo_rst/blade30.png" height="256">
+<img src="blade30.png" height="256">
 
 ## Download
 1. Baidu Disc: 
