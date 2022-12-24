@@ -21,9 +21,9 @@ If you use these works in your research, please cite:
 		author = {Cong Yang and Xun Liu and Hua Zhou and Yan Ke and John See},
 		title = {Towards accurate image stitching for drone-based wind turbine blade inspection},
 		journal = {Renewable Energy},
-            volume={203},
-            pages={267-279},
-            year={2023},
+            volume = {203},
+            pages = {267-279},
+            year = {2023}
 	}
 
 **Data Structure**:
