@@ -32,6 +32,4 @@ If you use these works in your research, please cite:
    - mask: ground truth of blade region segmentation
       - 10_d78543cb-5fb1-4677-b92e-2ece550642c9.jpg: blade image
       - 10_d78543cb-5fb1-4677-b92e-2ece550642c9.json: ground truth of defects and contaminations
-        - label: label name
-	- points: bounding boxes
 
